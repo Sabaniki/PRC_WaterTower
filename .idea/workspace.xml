@@ -21,104 +21,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/clion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/platformio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/3.15.3/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/3.15.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD_VERBOSE.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD_VERBOSE.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD_VERBOSE.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_BUILD_VERBOSE.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_CLEAN.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_CLEAN.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_CLEAN.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_CLEAN.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_DEVICE_LIST.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_DEVICE_LIST.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_DEVICE_LIST.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_DEVICE_LIST.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_MONITOR.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_MONITOR.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_MONITOR.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_MONITOR.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_PROGRAM.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_PROGRAM.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_PROGRAM.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_PROGRAM.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_TEST.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_TEST.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_TEST.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_TEST.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOAD.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOAD.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOAD.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOAD.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOADFS.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOADFS.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOADFS.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PLATFORMIO_UPLOADFS.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PRC_WaterTower.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PRC_WaterTower.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PRC_WaterTower.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PRC_WaterTower.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PRC_WaterTower.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PRC_WaterTower.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/PRC_WaterTower.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/PRC_WaterTower.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-uno/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PinDefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Variables.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/README" afterDir="false" />
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="フォーマットしました">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,12 +48,6 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="WgXyulQE" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
-    <option name="y" value="21" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -165,14 +66,20 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="CMake Application.PLATFORMIO_UPDATE">
+  <component name="RunManager" selected="CMake Application.PLATFORMIO_BUILD">
     <configuration name="PLATFORMIO_BUILD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_WaterTower" TARGET_NAME="PLATFORMIO_BUILD" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -261,6 +168,14 @@
       <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
     </task>
+    <task id="LOCAL-00001" summary="フォーマットしました">
+      <created>1581173892340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581173892340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -271,11 +186,23 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="フォーマットしました" />
+    <option name="LAST_COMMIT_MESSAGE" value="フォーマットしました" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="240" y="50" key="CommitChangelistDialog2" timestamp="1581173892212">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="240" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581173892212" />
     <state x="572" y="350" key="Github.ShareDialog" timestamp="1581173476539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="572" y="350" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1581173476539" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581173896134">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581173896134" />
   </component>
   <component name="masterDetails">
     <states>
