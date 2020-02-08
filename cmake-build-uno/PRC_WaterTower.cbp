@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PRC_WaterTower"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PRC_WaterTower">
+				<Option output="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/PRC_WaterTower" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/include"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/src"/>
+					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/UltraSonicSensor"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/DigitalPin"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/variants/standard"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Users/sabac/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PRC_WaterTower"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PRC_WaterTower/fast">
+				<Option output="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/PRC_WaterTower" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/include"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/src"/>
+					<Add directory="/Users/sabac/.platformio/lib/Servo_ID883/src"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/UltraSonicSensor"/>
+					<Add directory="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/DigitalPin"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/cores/arduino"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/variants/standard"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/HID/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SPI/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/framework-arduino-avr/libraries/Wire/src"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/avr/include"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include"/>
+					<Add directory="/Users/sabac/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed"/>
+					<Add directory="/Users/sabac/.platformio/packages/tool-unity"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PRC_WaterTower/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_BUILD">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_DEVICE_LIST">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_DEVICE_LIST"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_REBUILD_PROJECT_INDEX">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_REBUILD_PROJECT_INDEX"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_PROGRAM">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_PROGRAM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPDATE_ALL">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPDATE_ALL"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPLOADFS">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOADFS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_TEST">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_TEST"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPLOAD">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOAD"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_CLEAN">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_CLEAN"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_BUILD_VERBOSE">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD_VERBOSE"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_MONITOR">
+				<Option working_dir="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 PLATFORMIO_MONITOR"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/cmake-build-uno/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/DigitalPin/.pio/.piopkgmanager.json">
+			<Option target="PRC_WaterTower"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/DigitalPin/DigitalPin.cpp">
+			<Option target="PRC_WaterTower"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/DigitalPin/DigitalPin.h">
+			<Option target="PRC_WaterTower"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/UltraSonicSensor/.pio/.piopkgmanager.json">
+			<Option target="PRC_WaterTower"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/UltraSonicSensor/UltrasonicSensor.cpp">
+			<Option target="PRC_WaterTower"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/.pio/libdeps/uno/UltraSonicSensor/UltrasonicSensor.h">
+			<Option target="PRC_WaterTower"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/src/PinDefs.h">
+			<Option target="PRC_WaterTower"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/src/Variables.h">
+			<Option target="PRC_WaterTower"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/src/main.cpp">
+			<Option target="PRC_WaterTower"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/sabac/MyPrograms/Arduino/PRC2020/PRC_WaterTower/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
