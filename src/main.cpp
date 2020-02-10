@@ -8,20 +8,32 @@
 #include "Servo.h"
 
 void setup() {
-    // Serial.begin(9600);
+    Serial.begin(9600);
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wmissing-noreturn"
 void loop() {
+    Serial.println("start");
+    auto vcc = DigitalPin(VCC_PIN, OUTPUT);
+    vcc.write(HIGH);
+    delay(50);
     auto ultrasonicSensor = UltrasonicSensor(TRIGGER_PIN, ECHO_PIN);
     auto servo = Servo();
     servo.attach(SERVO_PIN);
+    Serial.println("init was done.");
+
     while (true) {    // 汽車が来るまで時間を無限に潰します
         double distance = 0.0;
         for (int i = 0; i < TIMES; i++) distance += ultrasonicSensor.readDistance();
         distance /= TIMES;
-        if (distance < DETECTION_STANDARD_DISTANCE) break;
+        Serial.print("distance: ");
+        Serial.print(distance);
+        Serial.println("cm");
+        if (DETECTION_STANDARD_DISTANCE_MIN < distance && distance < DETECTION_STANDARD_DISTANCE_MAX) break;
     }
     delay(WAITING_TIME);    // 汽車回転待ち
     servo.write(SERVO_ANGLE);
     while (true);    // 終了後に無限に捕まえる
 }
+#pragma clang diagnostic pop

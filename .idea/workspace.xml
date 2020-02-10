@@ -21,11 +21,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="フォーマットしました">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="VSCode向けのものを削除">
+      <change afterPath="$PROJECT_DIR$/.idea/CodicPluginSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/clion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/platformio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platformio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PinDefs.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinDefs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +54,7 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="WgXyulQE" />
   </component>
+  <component name="ProjectId" id="1XZ3o5qwi6yYAxBa5vlF7m98MSD" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -65,8 +72,16 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="FullScreen" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/platformio.ini" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -76,10 +91,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="CodicPlugin" />
   </component>
-  <component name="RunManager" selected="CMake Application.PLATFORMIO_BUILD">
+  <component name="RunManager" selected="CMake Application.PLATFORMIO_UPLOAD">
     <configuration name="PLATFORMIO_BUILD" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PRC_WaterTower" TARGET_NAME="PLATFORMIO_BUILD" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -135,14 +149,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="CMake Application.PLATFORMIO_UPDATE" />
       <item itemvalue="CMake Application.PLATFORMIO_BUILD" />
       <item itemvalue="CMake Application.PLATFORMIO_CLEAN" />
       <item itemvalue="CMake Application.PLATFORMIO_PROGRAM" />
       <item itemvalue="CMake Application.PLATFORMIO_REBUILD_PROJECT_INDEX" />
       <item itemvalue="CMake Application.PLATFORMIO_TEST" />
-      <item itemvalue="CMake Application.PLATFORMIO_UPLOAD" />
+      <item itemvalue="CMake Application.PLATFORMIO_UPDATE" />
       <item itemvalue="CMake Application.PLATFORMIO_UPLOADFS" />
+      <item itemvalue="CMake Application.PLATFORMIO_UPLOAD" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -167,6 +181,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
+      <workItem from="1581239963268" duration="598000" />
+      <workItem from="1581241773464" duration="4355000" />
     </task>
     <task id="LOCAL-00001" summary="フォーマットしました">
       <created>1581173892340</created>
@@ -175,8 +191,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581173892340</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="VSCode向けのものを削除">
+      <created>1581174910311</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581174910311</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -188,21 +214,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="フォーマットしました" />
-    <option name="LAST_COMMIT_MESSAGE" value="フォーマットしました" />
+    <MESSAGE value="VSCode向けのものを削除" />
+    <option name="LAST_COMMIT_MESSAGE" value="VSCode向けのものを削除" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="50" key="CommitChangelistDialog2" timestamp="1581173892212">
+    <state x="320" y="115" key="#Notifications" timestamp="1581316105861">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="240" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581173892212" />
+    <state x="320" y="115" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1581316105861" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581315230566">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581315230566" />
+    <state x="240" y="50" key="CommitChangelistDialog2" timestamp="1581323372835">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="240" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581323372835" />
     <state x="572" y="350" key="Github.ShareDialog" timestamp="1581173476539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="572" y="350" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1581173476539" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581173896134">
+    <state x="432" y="91" key="SettingsEditor" timestamp="1581316147721">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581173896134" />
+    <state x="432" y="91" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581316147721" />
+    <state x="681" y="1171" key="SettingsEditor/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581236674296" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581174915034">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581174915034" />
+    <state x="380" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581300971936">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="380" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581300971936" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581316151076">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581316151076" />
   </component>
   <component name="masterDetails">
     <states>

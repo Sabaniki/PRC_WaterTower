@@ -4,7 +4,8 @@
 
 #ifndef PRC_WATERTOWER_PINDEFS_H
 #define PRC_WATERTOWER_PINDEFS_H
-#define TRIGGER_PIN 5
-#define ECHO_PIN 6
-#define SERVO_PIN 7
+#define VCC_PIN 22
+#define TRIGGER_PIN 10
+#define ECHO_PIN 11
+#define SERVO_PIN 9
 #endif //PRC_WATERTOWER_PINDEFS_H
