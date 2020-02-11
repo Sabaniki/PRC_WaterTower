@@ -21,17 +21,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="VSCode向けのものを削除">
-      <change afterPath="$PROJECT_DIR$/.idea/CodicPluginSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/clion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clion.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/platformio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platformio.iml" afterDir="false" />
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="とりあえず動きます">
+      <change beforePath="$PROJECT_DIR$/.idea/CodicPluginSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodicPluginSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PinDefs.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinDefs.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Variables.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
       <workItem from="1581239963268" duration="598000" />
-      <workItem from="1581241773464" duration="4355000" />
+      <workItem from="1581241773464" duration="8551000" />
     </task>
     <task id="LOCAL-00001" summary="フォーマットしました">
       <created>1581173892340</created>
@@ -198,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581174910311</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="とりあえず動きます">
+      <created>1581323387149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581323387149</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +216,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="フォーマットしました" />
     <MESSAGE value="VSCode向けのものを削除" />
-    <option name="LAST_COMMIT_MESSAGE" value="VSCode向けのものを削除" />
+    <MESSAGE value="とりあえず動きます" />
+    <option name="LAST_COMMIT_MESSAGE" value="とりあえず動きます" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Notifications" timestamp="1581316105861">
@@ -226,10 +228,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581315230566" />
-    <state x="240" y="50" key="CommitChangelistDialog2" timestamp="1581323372835">
+    <state x="240" y="50" key="CommitChangelistDialog2" timestamp="1581323475671">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="240" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581323372835" />
+    <state x="240" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581323475671" />
     <state x="572" y="350" key="Github.ShareDialog" timestamp="1581173476539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -239,10 +241,10 @@
     </state>
     <state x="432" y="91" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581316147721" />
     <state x="681" y="1171" key="SettingsEditor/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581236674296" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581174915034">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581323390070">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581174915034" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581323390070" />
     <state x="380" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581300971936">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
