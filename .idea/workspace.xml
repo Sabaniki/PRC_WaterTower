@@ -21,11 +21,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="とりあえず動きます">
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="動作確認＆サーボの角度を変更">
       <change beforePath="$PROJECT_DIR$/.idea/CodicPluginSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CodicPluginSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PinDefs.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/PinDefs.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Variables.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variables.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +178,8 @@
       <option name="presentableId" value="Default" />
       <updated>1435919971910</updated>
       <workItem from="1581239963268" duration="598000" />
-      <workItem from="1581241773464" duration="8551000" />
+      <workItem from="1581241773464" duration="11932000" />
+      <workItem from="1581499602683" duration="695000" />
     </task>
     <task id="LOCAL-00001" summary="フォーマットしました">
       <created>1581173892340</created>
@@ -199,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581323387149</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="動作確認＆サーボの角度を変更">
+      <created>1581403755130</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581403755130</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +227,8 @@
     <MESSAGE value="フォーマットしました" />
     <MESSAGE value="VSCode向けのものを削除" />
     <MESSAGE value="とりあえず動きます" />
-    <option name="LAST_COMMIT_MESSAGE" value="とりあえず動きます" />
+    <MESSAGE value="動作確認＆サーボの角度を変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="動作確認＆サーボの角度を変更" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Notifications" timestamp="1581316105861">
@@ -228,10 +239,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581315230566" />
-    <state x="240" y="50" key="CommitChangelistDialog2" timestamp="1581323475671">
+    <state x="240" y="50" key="CommitChangelistDialog2" timestamp="1581403755013">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="240" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581323475671" />
+    <state x="240" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581403755013" />
     <state x="572" y="350" key="Github.ShareDialog" timestamp="1581173476539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -241,18 +252,18 @@
     </state>
     <state x="432" y="91" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581316147721" />
     <state x="681" y="1171" key="SettingsEditor/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581236674296" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581323390070">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581403758725">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581323390070" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581403758725" />
     <state x="380" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581300971936">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="380" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581300971936" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581316151076">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1581405385552">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581316151076" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1581405385552" />
   </component>
   <component name="masterDetails">
     <states>

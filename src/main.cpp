@@ -15,8 +15,6 @@ void setup() {
 #pragma clang diagnostic ignored "-Wmissing-noreturn"
 void loop() {
     Serial.println("start");
-    auto vcc = DigitalPin(VCC_PIN, OUTPUT);
-    vcc.write(HIGH);
     delay(50);
     auto ultrasonicSensor = UltrasonicSensor(TRIGGER_PIN, ECHO_PIN);
     auto servo = Servo();
@@ -32,8 +30,10 @@ void loop() {
         Serial.println("cm");
         if (DETECTION_STANDARD_DISTANCE_MIN < distance && distance < DETECTION_STANDARD_DISTANCE_MAX) break;
     }
-    delay(WAITING_TIME);    // 汽車回転待ち
+    delay(WAITING_FOR_TRAIN_TIME);    // 汽車回転待ち
     servo.write(SERVO_ANGLE);
+    delay(WAITING_FOR_WATER_SUPPLY);
+    servo.write(0);
     while (true);    // 終了後に無限に捕まえる
 }
 #pragma clang diagnostic pop
