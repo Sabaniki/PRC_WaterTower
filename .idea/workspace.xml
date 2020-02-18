@@ -21,9 +21,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="無理やりのVCCが不要になりました">
-      <change beforePath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" afterDir="false" />
+    <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +176,7 @@
       <workItem from="1581239963268" duration="598000" />
       <workItem from="1581241773464" duration="11932000" />
       <workItem from="1581499602683" duration="1944000" />
-      <workItem from="1581607591318" duration="403000" />
+      <workItem from="1581607591318" duration="2621000" />
     </task>
     <task id="LOCAL-00001" summary="フォーマットしました">
       <created>1581173892340</created>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581501784573</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="直接は関係ない自動生成ファイルも結局.gitignoreに追記しない方向性にしました。">
+      <created>1581608562031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581608562031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +240,8 @@
     <MESSAGE value="とりあえず動きます" />
     <MESSAGE value="動作確認＆サーボの角度を変更" />
     <MESSAGE value="無理やりのVCCが不要になりました" />
-    <option name="LAST_COMMIT_MESSAGE" value="無理やりのVCCが不要になりました" />
+    <MESSAGE value="直接は関係ない自動生成ファイルも結局.gitignoreに追記しない方向性にしました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="直接は関係ない自動生成ファイルも結局.gitignoreに追記しない方向性にしました。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Notifications" timestamp="1581316105861">
@@ -244,10 +252,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1581315230566" />
-    <state x="240" y="50" key="CommitChangelistDialog2" timestamp="1581501784478">
+    <state x="240" y="50" key="CommitChangelistDialog2" timestamp="1581609024244">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="240" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581501784478" />
+    <state x="240" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581609024244" />
     <state x="572" y="350" key="Github.ShareDialog" timestamp="1581173476539">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -257,10 +265,10 @@
     </state>
     <state x="432" y="91" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581316147721" />
     <state x="681" y="1171" key="SettingsEditor/249.1080.1440.900/0.0.1920.1080@249.1080.1440.900" timestamp="1581236674296" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581403758725">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581608565249">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581403758725" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581608565249" />
     <state x="380" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1581300971936">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
